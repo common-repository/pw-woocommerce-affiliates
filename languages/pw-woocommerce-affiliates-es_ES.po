@@ -1,0 +1,432 @@
+# Copyright (C) 2018 PW WooCommerce Affiliates
+# This file is distributed under the same license as the PW WooCommerce Affiliates package.
+msgid ""
+msgstr ""
+"Project-Id-Version: PW WooCommerce Affiliates 1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/free\n"
+"POT-Creation-Date: 2020-10-07 00:47:44+00:00\n"
+"PO-Revision-Date: 2020-10-06 20:53-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/admin.php:34 admin/admin.php:129 admin/admin.php:140
+#: admin/admin.php:152 admin/admin.php:153
+msgid "PW Affiliates"
+msgstr "PW Affiliates"
+
+#: admin/admin.php:40
+msgid "Affiliate Program Name"
+msgstr "Nombre del programa de afiliados"
+
+#: admin/admin.php:41
+msgid "Shown to affiliates when they log in to check their reports."
+msgstr ""
+"Se muestran a los afiliados cuando ingresan para verificar sus reportes."
+
+#: admin/admin.php:43 pw-affiliates.php:65 pw-affiliates.php:66
+msgid "Affiliate Program"
+msgstr "Programa de Afiliados"
+
+#: admin/admin.php:47
+msgid "Pre-Tax Commission"
+msgstr "Comisión pre-tributaria"
+
+#: admin/admin.php:48
+msgid "Should the commission be based on the pre-tax product price?"
+msgstr ""
+"¿Debería la Comisión basarse en el precio del producto antes de impuestos?"
+
+#: admin/admin.php:54
+msgid "Affiliate Code URL Field"
+msgstr "Campo de URL de código de afiliado"
+
+#: admin/admin.php:61
+msgid "Affiliate Endpoint"
+msgstr "Affiliate Endpoint"
+
+#: admin/admin.php:62
+msgid "The URL for the report shown to affiliate users. Default: %s"
+msgstr ""
+"La URL del informe que se muestra a los usuarios afiliados. Predeterminado: "
+"%s"
+
+#: admin/admin.php:68
+msgid "Cookie Lifetime"
+msgstr "Vida útil de las cookies"
+
+#: admin/admin.php:69
+msgid ""
+"The number of days the Affiliate tracking cookie is stored for visitors. If "
+"set to 0, the cookie will expire at the end of the session (when the browser "
+"closes). Default: %s"
+msgstr ""
+"El número de días que la cookie de seguimiento del afiliado se almacena para "
+"los visitantes. Si se establece en 0, la cookie expirará al final de la "
+"sesión (cuando el navegador se cierre). Por defecto: %s"
+
+#: admin/admin.php:75
+msgid "Show Code In Cart"
+msgstr "Mostrar código en el carrito"
+
+#: admin/admin.php:76
+msgid ""
+"Check this box to show the Affiliate Code on the Cart page. If no code is "
+"applied, nothing will be shown. Default: unchecked."
+msgstr ""
+"Marque esta casilla para mostrar el Código de Afiliado en la página de la "
+"cesta. Si no se aplica ningún código, no se mostrará nada. Por defecto: sin "
+"marcar."
+
+#: admin/admin.php:82
+msgid "Show Code In Checkout"
+msgstr "Mostrar el código en la caja"
+
+#: admin/admin.php:83
+msgid ""
+"Check this box to show the Affiliate Code on the Checkout page. If no code "
+"is applied, nothing will be shown. Default: unchecked."
+msgstr ""
+"Marque esta casilla para mostrar el código de afiliado en la página de pago. "
+"Si no se aplica ningún código, no se mostrará nada. Predeterminado: sin "
+"marcar."
+
+#: admin/admin.php:119
+msgid "PW WooCommerce Affiliates requires WooCommerce version %s or later."
+msgstr "PW WooCommerce afiliados requiere WooCommerce versión %s o posterior."
+
+#: admin/admin.php:130 admin/admin.php:141
+msgid "Pimwick Plugins"
+msgstr "Pimwick Plugins"
+
+#: admin/admin.php:209 pw-affiliates.php:154
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: admin/admin.php:210
+msgid "Saving..."
+msgstr "Guardando…"
+
+#: admin/admin.php:211
+msgid "Exporting..."
+msgstr "Exportando..."
+
+#: admin/admin.php:212 pw-affiliates.php:155
+msgid "Link copied to clipboard"
+msgstr "Enlace copiado al portapapeles"
+
+#: admin/admin.php:213
+msgid "Are you sure you want to delete this affiliate?"
+msgstr "¿Estás seguro de que quieres borrar este afiliado?"
+
+#: admin/admin.php:248 admin/ui/sections/affiliates-report.php:39
+msgid "All Affiliates"
+msgstr "Todos los afiliados"
+
+#: admin/admin.php:396 admin/admin.php:426 includes/pwwa-functions.php:270
+#: includes/pwwa-functions.php:330
+msgid "Name cannot be empty."
+msgstr "El nombre no puede estar vacío."
+
+#: admin/admin.php:406
+msgid "Added new affiliate: %s"
+msgstr "Agregado nuevo afiliado: %s"
+
+#: admin/admin.php:429
+msgid "Code cannot be empty."
+msgstr "El código no puede estar vacío."
+
+#: admin/admin.php:432
+msgid "Affiliate ID cannot be empty."
+msgstr "El ID de afiliado no puede estar vacío."
+
+#: admin/admin.php:439
+msgid "Saved affiliate: %s"
+msgstr "Afiliado guardado: %s"
+
+#: admin/admin.php:457
+msgid "Could not locate affiliate by ID"
+msgstr "No se pudo localizar afiliado por ID"
+
+#: admin/admin.php:476
+msgid "Saved"
+msgstr "Guardado"
+
+#: admin/admin.php:489
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: admin/ui/affiliates-table.php:27
+msgid "Export"
+msgstr "Exportar"
+
+#: admin/ui/affiliates-table.php:61
+#: templates/woocommerce/pw-affiliates-report.php:58
+msgid "Copy URL to Clipboard"
+msgstr "Copiar URL al portaPapeles"
+
+#: admin/ui/affiliates-table.php:74
+msgid "View Orders"
+msgstr "Ver Pedidos"
+
+#: admin/ui/affiliates-table.php:75
+msgid "Edit Affiliate"
+msgstr "Editar afiliado"
+
+#: admin/ui/affiliates-table.php:84
+msgid "No results"
+msgstr "No hay resultados"
+
+#: admin/ui/footer.php:30
+msgid "Need help? Email %s"
+msgstr "¿Necesita ayuda? Email %s"
+
+#: admin/ui/footer.php:32
+msgid ""
+"Please consider <%s>leaving a review on WordPress.org</a>. This really helps "
+"us out!"
+msgstr ""
+"Por favor considere <%s>dejando una reseña en WordPress.org</a>. ¡ Esto "
+"realmente nos ayuda!"
+
+#. Plugin Name of the plugin/theme
+#: admin/ui/header.php:27
+msgid "PW WooCommerce Affiliates"
+msgstr "PW WooCommerce Affiliates"
+
+#: admin/ui/index.php:28
+msgid "Affiliates report"
+msgstr "Informe de afiliados"
+
+#: admin/ui/index.php:29
+msgid "Create an Affiliate"
+msgstr "Crear un afiliado"
+
+#: admin/ui/index.php:30
+msgid "Commissions"
+msgstr "Comisiones"
+
+#: admin/ui/index.php:31
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/ui/sections/affiliates-report.php:35
+msgid "Affiliate"
+msgstr "Afiliado"
+
+#: admin/ui/sections/affiliates-report.php:55
+#: templates/woocommerce/pw-affiliates-report.php:64
+msgid "Order Dates"
+msgstr "Fechas de pedido"
+
+#: admin/ui/sections/affiliates-report.php:64
+msgid "Apply filters"
+msgstr "Aplicar filtros"
+
+#: admin/ui/sections/affiliates-report.php:75 admin/ui/sections/create.php:27
+#: includes/pwwa-functions.php:66
+msgid "Affiliate name"
+msgstr "Nombre del afiliado"
+
+#: admin/ui/sections/affiliates-report.php:79 includes/pwwa-functions.php:67
+msgid "User"
+msgstr "Usuario"
+
+#: admin/ui/sections/affiliates-report.php:90 admin/ui/sections/create.php:35
+#: includes/pwwa-functions.php:68 pw-affiliates.php:288
+msgid "Affiliate code"
+msgstr "Código de afiliados"
+
+#: admin/ui/sections/affiliates-report.php:94
+#: admin/ui/sections/commissions.php:38
+msgid "Save"
+msgstr "Guardar"
+
+#: admin/ui/sections/affiliates-report.php:95
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: admin/ui/sections/affiliates-report.php:96
+msgid "Delete Affiliate"
+msgstr "Eliminar afiliado"
+
+#: admin/ui/sections/commissions.php:29
+msgid "Default commission"
+msgstr "Comisión por omisión"
+
+#: admin/ui/sections/commissions.php:32
+msgid ""
+"Used when creating new Affiliates. Can be from 0 to 100% with up to 4 "
+"decimal precision."
+msgstr ""
+"Se utiliza cuando se crean nuevos afiliados. Puede ser de 0 a 100% con hasta "
+"4 decimales de precisión."
+
+#: admin/ui/sections/commissions.php:44
+msgid "Commissions by Category"
+msgstr "Comisiones por categoría"
+
+#: admin/ui/sections/commissions.php:48
+msgid ""
+"As a way to encourage affiliates to push certain categories, consider "
+"offering a higher commission for that category."
+msgstr ""
+"Como una manera de alentar a los afiliados a impulsar ciertas categorías, "
+"considere la posibilidad de ofrecer una Comisión superior para esa categoría."
+
+#: admin/ui/sections/commissions.php:52
+msgid "To specify a commission by category, upgrade to %s"
+msgstr "Para especificar una Comisión por categoría, actualice a %s"
+
+#: admin/ui/sections/commissions.php:58
+msgid "Commissions by Product"
+msgstr "Comisiones por producto"
+
+#: admin/ui/sections/commissions.php:62
+msgid "Individual products can have their own commission rate."
+msgstr "Los productos individuales pueden tener su propia tasa de Comisión."
+
+#: admin/ui/sections/commissions.php:66
+msgid "To specify a commissions by product, upgrade to %s"
+msgstr "Para especificar comisiones por producto, actualice a %s"
+
+#: admin/ui/sections/commissions.php:72
+msgid "Commissions by Affiliate"
+msgstr "Comisiones por afiliado"
+
+#: admin/ui/sections/commissions.php:76
+msgid ""
+"Each Affiliate can have their own commission rate. To specify a commissions "
+"by affiliate, upgrade to %s"
+msgstr ""
+"Cada afiliado puede tener su propia tarifa de Comisión. Para especificar "
+"comisiones por afiliado, actualice a %s"
+
+#: admin/ui/sections/create.php:32
+msgid "Automatically generate an affiliate code"
+msgstr "Generar automáticamente un código de afiliado"
+
+#: admin/ui/sections/create.php:39
+msgid "User who can see the reports for this Affiliate when logged in."
+msgstr "Usuario que puede ver los informes de este afiliado al iniciar sesión."
+
+#: admin/ui/sections/create.php:51
+msgid "Commission rate is %s"
+msgstr "La tasa de Comisión es %s"
+
+#: admin/ui/sections/create.php:55
+msgid "Want to specify a custom commission for this affiliate? Upgrade to %s"
+msgstr ""
+"¿Desea especificar una Comisión personalizada para este afiliado? Actualizar "
+"a %s"
+
+#: admin/ui/sections/create.php:59
+msgid "Create affiliate"
+msgstr "Crear afiliado"
+
+#: admin/ui/sections/settings.php:34
+msgid "Save settings"
+msgstr "Guardar ajustes"
+
+#: includes/class-pw-affiliate.php:73
+msgid "Affiliate does not exist."
+msgstr "El afiliado no existe."
+
+#: includes/class-pw-affiliate.php:76
+msgid "Enter a code."
+msgstr "Introduzca un código."
+
+#: includes/class-pw-affiliate.php:196
+msgid "Property %s does not exist on %s"
+msgstr "La propiedad %s no existe en %s"
+
+#: includes/pwwa-functions.php:69
+msgid "URL"
+msgstr "URL"
+
+#: includes/pwwa-functions.php:70
+msgid "Order count"
+msgstr "Número de pedidos"
+
+#: includes/pwwa-functions.php:71
+msgid "Revenue"
+msgstr "Ingresos"
+
+#: includes/pwwa-functions.php:72
+#: templates/woocommerce/pw-affiliates-report.php:83
+msgid "Commission"
+msgstr "Comisión"
+
+#: includes/pwwa-functions.php:205
+msgid "Error while getting Affiliates from the database: %s"
+msgstr "Número de pedidos"
+
+#: includes/pwwa-functions.php:265 includes/pwwa-functions.php:325
+msgid "Affiliate Code cannot be empty."
+msgstr "El código de afiliación no puede estar vacío."
+
+#: includes/pwwa-functions.php:308
+msgid "Failed to generate a unique random affiliate code after %d attempts. %s"
+msgstr ""
+"No se pudo generar un código de afiliado aleatorio único después de intentos "
+"de% d.  %s"
+
+#: includes/pwwa-functions.php:319
+msgid "pimwick_affiliate_id cannot be empty."
+msgstr "pimwick_affiliate_id no puede estar vacío."
+
+#: pw-affiliates.php:261
+msgid "Affiliate %s. Commission %s"
+msgstr "Afiliados %s. Comisión %s"
+
+#: pw-affiliates.php:292
+msgid "Affiliate commission"
+msgstr "Comisión de afiliados"
+
+#: templates/woocommerce/cart/pw-affiliates-cart-totals-before-order-total.php:12
+#: templates/woocommerce/cart/pw-affiliates-cart-totals-before-order-total.php:13
+#: templates/woocommerce/checkout/pw-affiliates-review-order-before-order-total.php:12
+#: templates/woocommerce/checkout/pw-affiliates-review-order-before-order-total.php:13
+msgid "Affiliate Code"
+msgstr "Código de afiliación"
+
+#: templates/woocommerce/pw-affiliates-report.php:25
+msgid "This account is not linked to an Affiliate account."
+msgstr "Esta cuenta no está vinculada a una cuenta de afiliado."
+
+#: templates/woocommerce/pw-affiliates-report.php:57
+msgid "Affiliate URL"
+msgstr "URL de afiliado"
+
+#: templates/woocommerce/pw-affiliates-report.php:67
+msgid "Filter"
+msgstr "Filtro"
+
+#: templates/woocommerce/pw-affiliates-report.php:71
+msgid "Commission rate"
+msgstr "Tasa de Comisión"
+
+#: templates/woocommerce/pw-affiliates-report.php:77
+msgid "Orders"
+msgstr "Pedidos"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.pimwick.com/affiliates/"
+msgstr "https://www.pimwick.com/affiliates/"
+
+#. Description of the plugin/theme
+msgid "Affiliate tracking for your WooCommerce store."
+msgstr "Seguimiento de afiliados para su tienda WooCommerce."
+
+#. Author of the plugin/theme
+msgid "Pimwick, LLC"
+msgstr "Pimwick, LLC"
+
+#. Author URI of the plugin/theme
+msgid "https://www.pimwick.com"
+msgstr "https://www.pimwick.com"
